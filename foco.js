@@ -12,7 +12,7 @@ function foco(){
     
     const img = document.createElement('img');
     img.classList.add('foco');
-    img.setAttribute('src', '/foco-apagado.jpg')
+    img.setAttribute('src', 'foco-apagado.jpg')
 
     img.addEventListener('click', () =>{
         if(img.src.indexOf('apagado') > 0){
